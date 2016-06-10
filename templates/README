@@ -1,0 +1,13 @@
+Joseph Faulkner (jofaulkn@ucsc.edu)
+UCSC WINTER 2016
+CMPS 109 : Advanced programming.
+PROG ASSIGNMENT# 3: Linked List Template Data Stucture 
+
+In this assignment, we implemented a template that defines
+a circular linked list data structure for storing and 
+retrieving values with keys. 
+
+I fully implemented all of the commands to be executed
+by the program. I tested to make sure that the program 
+compiles and runs properly without checksource complaints
+or segfaults and coredumps. 

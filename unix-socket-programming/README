@@ -1,0 +1,13 @@
+Joseph Faulkner (jofaulkn@ucsc.edu)
+CMPS109: Advanced Programming
+WINTER 2016
+ASG5: UNIX SOCKET PROGRAMMING
+
+I ran and tested the code for bugs and errors. 
+The only stange thing I found is that it's actually
+possible to delete the server (cixd) executable from 
+the client. The program stil works even if you do this. 
+I thought that this sort of behavior was fishy, so I decided
+it was best to add conditional statements to the program in 
+order to prohibit removing the cix and cixd files.
+

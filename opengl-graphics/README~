@@ -1,0 +1,15 @@
+Joseph Faulkner (jofaulkn@ucsc.edu)
+CMPS109 ADVANCED PROGRAMMING
+WINTER 2016 UC SANTA CRUZ
+PROG ASG#4: OPENGL DRAWING PROGRAM
+
+The default Makefile didn't work by default, so I had to make a few
+changes in order for the program to compile. 
+I copied the rgb.txt file from the directory "/usr/share/X11/" 
+into my local working directory. I changed the script mk-colors.perl
+to use the file accordingly. Needless to say, DO NOT DELETE IT!
+I also had to change line 36 in the Makefile from:
+	mk-colors.perl >colors.cppgen
+to: 
+	perl mk-colors.perl >colors.cppgen   
+With those changes made, the program successfully compiles and runs.
